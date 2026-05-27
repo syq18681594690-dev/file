@@ -47,3 +47,33 @@
 **原因**：远程推送会影响共享仓库状态，应由用户显式控制推送时机与目标
 **否决方案**：在完成提交后自动推送远程仓库（原因：可能在用户尚未审核变更或未选择远端时发布内容）
 **影响范围**：`AGENTS.md`、`wiki/backend-development-guide.md`、Git 操作流程
+
+## 2026-05-26：后端规范按技术栈命名
+**决策**：将现有规范的实际维护页面更名为 `wiki/python-backend-development-guide.md`，标题改为“Python 后端开发规范”；旧 Wiki 路径保留跳转入口
+**原因**：现有规范限定 Python、FastAPI 与 Uvicorn，按技术栈命名可为其他语言或运行时的后端规范保留清晰入口
+**否决方案**：继续使用泛化的“后端开发约定”名称（原因：后续引入其他后端技术栈时会混淆适用范围）
+**影响范围**：`wiki/python-backend-development-guide.md`、`wiki/backend-development-guide.md`、Wiki 导航与交叉链接
+
+## 2026-05-26：前端采用 Vue 3 专项规范
+**决策**：将用户提出的 `Vu3` 按上下文规范为 `Vue 3`，新增 `wiki/vue3-frontend-development-guide.md` 并与 Python/FastAPI 后端规范建立协作约定
+**原因**：Vue 3 已被指定为前端框架，专项页面可明确组件、状态、接口契约和联调规则，同时保留通用前端经验入口
+**否决方案**：仅在通用前端经验页面中零散记录 Vue 3 要求（原因：无法清晰表达特定框架适用范围及后端协作规则）
+**影响范围**：`wiki/vue3-frontend-development-guide.md`、`wiki/frontend-development-experience.md`、`wiki/python-backend-development-guide.md`
+
+## 2026-05-26：Vue 3 使用 TypeScript
+**决策**：Vue 3 前端开发使用 `TypeScript`，组件边界、共享逻辑和 API 请求响应均以显式类型表达
+**原因**：用户明确指定 `ts`，且类型约定有助于前端与 FastAPI 已确认的请求响应结构保持一致
+**否决方案**：在 Vue 3 专项规范中继续将 JavaScript 与 TypeScript 都列为待选项（原因：与已明确的用户要求冲突）
+**影响范围**：`wiki/vue3-frontend-development-guide.md`、`wiki/frontend-development-experience.md`
+
+## 2026-05-26：Vue 3 接口地址按运行模式解析
+**决策**：打包运行时使用浏览器当前访问的协议、主机和端口，仅拼接 API 路径；本地开发调试时支持直接配置 FastAPI 接口地址
+**原因**：避免构建产物绑定固定部署主机，同时满足本地联调连接指定后端环境的需要
+**否决方案**：在前端页面或构建产物中写死后端接口完整地址或独立后端端口（原因：部署环境变化时不可复用且容易连错服务）
+**影响范围**：`wiki/vue3-frontend-development-guide.md`、前端请求层与构建配置
+
+## 2026-05-27：Python 后端使用 SQLAlchemy
+**决策**：Python 后端使用 `SQLAlchemy` 访问 PostgreSQL 12
+**原因**：用户明确指定数据库访问技术，需统一模型映射、会话与查询实现边界
+**否决方案**：继续保留 ORM 或数据库访问方案未确定状态（原因：与用户已明确的技术选择冲突）
+**影响范围**：`wiki/python-backend-development-guide.md`、后端依赖与数据访问实现

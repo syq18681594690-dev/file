@@ -35,4 +35,5 @@ sources:
 ## 5. 关联页面
 
 - [前端开发经验](frontend-development-experience.md)
-- [后端开发约定](backend-development-guide.md)
+- [Vue 3 前端开发规范](vue3-frontend-development-guide.md)
+- [Python 后端开发规范](python-backend-development-guide.md)

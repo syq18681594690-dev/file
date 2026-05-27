@@ -25,7 +25,7 @@
 
 ## Wiki 页面约定
 
-- 内容页面使用小写英文加连字符命名，例如 `backend-development-guide.md`。
+- 内容页面使用小写英文加连字符命名，例如 `python-backend-development-guide.md`。
 - 内容页面按需要包含 YAML frontmatter：`title`、`type`、`status`、`updated` 与 `sources`。
 - 规范页面正文按需要包含：适用范围、已确定约束、开发注意事项、执行或验证要求、待确认事项。
 - 新增要求应归入对应主题章节；必要时更新汇总表或待确认事项，避免前后冲突。
@@ -57,8 +57,9 @@
 
 - `wiki/index.md`：Wiki 总索引，所有查询与整理工作的入口。
 - `wiki/log.md`：按时间追加的维护历史。
-- `wiki/backend-development-guide.md`：后端技术环境、接口框架、服务启动、依赖管理、并发目标及 Git 提交约定。
+- `wiki/python-backend-development-guide.md`：Python 后端技术环境、接口框架、数据访问、服务启动、依赖管理、并发目标及 Git 提交约定。
 - `wiki/frontend-development-experience.md`：前端技术选型、实现约定、接口联调及质量交付经验入口。
+- `wiki/vue3-frontend-development-guide.md`：Vue 3 前端组件、状态、接口联调和质量检查专项规范。
 - `wiki/cross-page-feature-consistency.md`：前后端多页面复用同一功能时的一致性规则与例外告知要求。
 - `wiki/daily-knowledge-notes.md`：尚未归入专项规范的日常知识、工具技巧与排查结论积累入口。
 

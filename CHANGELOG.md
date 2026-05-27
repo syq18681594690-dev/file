@@ -4,6 +4,15 @@
 >       fix(scope): 描述  → 修复
 >       refactor:   描述  → 重构
 
+## 2026-05-27
+
+### 新增
+- docs(frontend): 增加 Vue 3 与 TypeScript 前端专项规范及 FastAPI 协作要求
+- docs(backend): 明确 Python 后端通过 SQLAlchemy 访问 PostgreSQL
+
+### 重构
+- docs(wiki): 将后端规范按 Python 技术栈重命名并保留旧路径兼容入口
+
 ## 2026-05-26
 
 ### 新增

@@ -13,7 +13,7 @@ sources:
 
 本文档用于沉淀日常开发过程中获得的通用知识、工具技巧、问题排查结论和可复用提醒。
 
-属于明确专项规范的内容，应优先更新对应主题页面，例如 [后端开发约定](backend-development-guide.md)、[前端开发经验](frontend-development-experience.md) 或 [跨页面功能一致性约定](cross-page-feature-consistency.md)。不适合单独建立主题页面、但值得长期保留的信息，可记录在本文档中。
+属于明确专项规范的内容，应优先更新对应主题页面，例如 [Python 后端开发规范](python-backend-development-guide.md)、[Vue 3 前端开发规范](vue3-frontend-development-guide.md)、[前端开发经验](frontend-development-experience.md) 或 [跨页面功能一致性约定](cross-page-feature-consistency.md)。不适合单独建立主题页面、但值得长期保留的信息，可记录在本文档中。
 
 ## 2. 记录规则
 
