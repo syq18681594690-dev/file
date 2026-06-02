@@ -27,6 +27,7 @@
 - docs(backend): 明确 Python 后端通过 SQLAlchemy 访问 PostgreSQL
 
 ### 重构
+- docs(codex): 将 Codex CLI 命令参考拆分为主题总览页和子页面
 - docs(wiki): 将后端规范按 Python 技术栈重命名并保留旧路径兼容入口
 
 ## 2026-05-26

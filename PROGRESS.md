@@ -42,6 +42,7 @@
 - [x] 更新 `AGENTS.md` 当前导航，加入 Codex CLI 命令参考页面（2026-06-02）
 - [x] 将 `AGENTS.md` 当前导航简化为入口说明，主题清单统一维护在 `wiki/index.md`（2026-06-02）
 - [x] 将 Wiki 大主题拆分与分层导航规则写入 `AGENTS.md`（2026-06-02）
+- [x] 按分层导航规则拆分 Codex CLI 命令参考为总览页和子页面（2026-06-02）
 
 ## 进行中
 <!-- 格式：- [ ] 功能描述（完成百分比）
@@ -55,4 +56,4 @@
 <!-- 每次会话结束前更新此处 -->
 - 文件：`skills/wiki-knowledge-base/SKILL.md`
 - 位置：第 31 行 `Initialize` 流程
-- 待完成：如用户确认方向，将来源索引规则和 Wiki 分层导航规则同步补充进 `wiki-knowledge-base` skill 模板
+- 待完成：如用户确认方向，将来源索引规则和 Wiki 分层导航规则同步补充进 `wiki-knowledge-base` skill 模板；后续 Codex CLI 内容更新时从 `wiki/codex-cli-command-reference.md` 入口进入对应子页面

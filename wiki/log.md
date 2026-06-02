@@ -8,6 +8,11 @@ updated: 2026-06-02
 
 本文件按时间追加记录 `ingest`、`query` 和 `lint` 操作。
 
+## [2026-06-02] ingest | 拆分 Codex CLI 命令参考
+
+- 来源：用户对话输入；依据 [Codex CLI 命令参考](codex-cli-command-reference.md) 既有内容。
+- 结果：按 Wiki 分层导航规则，将 [Codex CLI 命令参考](codex-cli-command-reference.md) 改为主题总览页，并新增 `wiki/codex-cli/` 下的全局参数、顶层命令、slash commands 与常用工作流子页面。
+
 ## [2026-06-02] ingest | Codex CLI slash commands
 
 - 来源：OpenAI Codex Manual（2026-06-02 获取）。
