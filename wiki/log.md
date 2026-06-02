@@ -1,12 +1,32 @@
 ---
 title: Wiki 维护日志
 type: log
-updated: 2026-05-27
+updated: 2026-05-29
 ---
 
 # Wiki 维护日志
 
 本文件按时间追加记录 `ingest`、`query` 和 `lint` 操作。
+
+## [2026-05-29] query | 自定义 Wiki 知识库 skill 可行性
+
+- 来源：用户对话输入。
+- 结果：判断自定义 Wiki 知识库生成与维护流程适合抽象为 Codex skill，并将设计边界沉淀到 [日常知识积累](daily-knowledge-notes.md)。
+
+## [2026-05-29] query | Wiki 大规模维护防遗漏
+
+- 来源：用户对话输入。
+- 结果：基于当前 Wiki 维护规则回答数据量增长后的更新同步风险，并将防遗漏方法沉淀到 [日常知识积累](daily-knowledge-notes.md)。
+
+## [2026-05-29] ingest | 前端树形数据展开状态约定
+
+- 来源：用户对话输入。
+- 结果：更新 [前端开发经验](frontend-development-experience.md) 与 [Vue 3 前端开发规范](vue3-frontend-development-guide.md)，明确树形上下级级联数据支持点击整行展开或收起，并在刷新数据、编辑、修改、新增或删除后保持此前展开布局。
+
+## [2026-05-29] ingest | 前端列表居中展示约定
+
+- 来源：用户对话输入。
+- 结果：更新 [前端开发经验](frontend-development-experience.md) 与 [Vue 3 前端开发规范](vue3-frontend-development-guide.md)，明确数据以列表形式展示时，列表标题与列表内容应居中展示并保持对齐一致。
 
 ## [2026-05-26] ingest | 后端开发约束
 

@@ -1,7 +1,7 @@
 ---
 title: 开发规范 Wiki 索引
 type: index
-updated: 2026-05-27
+updated: 2026-05-29
 ---
 
 # 开发规范 Wiki
@@ -13,10 +13,10 @@ updated: 2026-05-27
 | 页面 | 主题 | 状态 | 最近更新 |
 | --- | --- | --- | --- |
 | [Python 后端开发规范](python-backend-development-guide.md) | Python/FastAPI/SQLAlchemy 后端技术栈、运行、并发及提交约定 | 生效中 | 2026-05-27 |
-| [前端开发经验](frontend-development-experience.md) | 前端技术选型、实现经验、接口联调与质量交付记录入口 | 草稿 | 2026-05-26 |
-| [Vue 3 前端开发规范](vue3-frontend-development-guide.md) | Vue 3 + TypeScript、FastAPI 协作与接口地址配置约定 | 生效中 | 2026-05-26 |
+| [前端开发经验](frontend-development-experience.md) | 前端技术选型、实现经验、接口联调与质量交付记录入口 | 草稿 | 2026-05-29 |
+| [Vue 3 前端开发规范](vue3-frontend-development-guide.md) | Vue 3 + TypeScript、FastAPI 协作与接口地址配置约定 | 生效中 | 2026-05-29 |
 | [跨页面功能一致性约定](cross-page-feature-consistency.md) | 前后端共享功能的一致实现与特殊差异说明规则 | 生效中 | 2026-05-26 |
-| [日常知识积累](daily-knowledge-notes.md) | 通用知识、工具技巧、排查结论和可复用提醒 | 生效中 | 2026-05-26 |
+| [日常知识积累](daily-knowledge-notes.md) | 通用知识、工具技巧、排查结论和可复用提醒 | 生效中 | 2026-05-29 |
 
 ## 操作记录
 

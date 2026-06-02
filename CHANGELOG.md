@@ -4,6 +4,15 @@
 >       fix(scope): 描述  → 修复
 >       refactor:   描述  → 重构
 
+## 2026-06-02
+
+### 新增
+- docs(frontend): 补充列表居中展示与树形展开状态保持规范
+- docs(skill): 增加 `wiki-knowledge-base` skill 草稿及通用 Wiki 模板
+
+### 修复
+- docs(progress): 更新本次维护状态与下次会话入口
+
 ## 2026-05-27
 
 ### 新增

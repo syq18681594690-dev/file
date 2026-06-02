@@ -13,6 +13,36 @@
 
 ---
 
+## 2026-05-29：示例 Wiki skill 放在当前目录的 skills 子目录
+**决策**：在当前仓库创建 `skills/wiki-knowledge-base/` 作为可查看的 skill 草稿，并将通用模板放入 `assets/templates/`
+**原因**：用户要求“在当前目录给我看一下”，放在 `skills/` 下可直接查看结构，同时不影响已安装的 Codex skills
+**否决方案**：直接写入 Codex 全局 skills 目录（原因：用户只要求当前目录查看，安装会扩大影响范围）；只给聊天文本不落文件（原因：不便检查真实 skill 结构）
+**影响范围**：`skills/wiki-knowledge-base/`
+
+## 2026-05-29：自定义 Wiki 知识库流程适合抽象为 skill
+**决策**：将 Wiki 知识库初始化、索引维护、日志记录、决策记录、lint 和下次入口更新流程作为未来 Codex skill 的候选方向
+**原因**：该流程具有重复性、结构化强、容易遗漏步骤，适合用 skill 固化操作顺序和模板；具体业务规范应由用户输入生成，不写死在 skill 中
+**否决方案**：把当前项目的具体 Wiki 内容直接封装进 skill（原因：会降低复用性，并把项目事实错误带到新知识库）
+**影响范围**：`wiki/daily-knowledge-notes.md`、未来 skill 设计
+
+## 2026-05-29：Wiki 大规模维护方法先沉淀到日常知识
+**决策**：将 Wiki 数据量增长后的更新同步防遗漏方法记录到 `wiki/daily-knowledge-notes.md`，暂不新建独立维护规范页面
+**原因**：当前只有一条大规模维护经验，放入日常知识可复用且不会增加索引复杂度；等同类规则增多后再拆分独立页面
+**否决方案**：立即新建单独 Wiki 维护扩展规范页（原因：当前内容规模不足，容易产生过早拆分和额外同步成本）
+**影响范围**：`wiki/daily-knowledge-notes.md`、`wiki/log.md`、`wiki/index.md`
+
+## 2026-05-29：前端树形展开状态按稳定节点标识维护
+**决策**：将树形上下级级联数据的交互与状态规则写入通用前端经验页，并同步补充到 Vue 3 专项规范；展开状态应按稳定节点标识维护，数据刷新和增删改后恢复此前布局
+**原因**：树形展开状态属于用户正在操作的界面上下文，增删改或刷新后重置会打断连续操作；通用页和 Vue 3 页同时记录可覆盖规范查询与具体实施
+**否决方案**：仅依赖 UI 组件默认展开行为（原因：默认行为常在数据源重载后丢失状态）；仅点击展开图标（原因：不符合用户要求的整行点击体验）
+**影响范围**：`wiki/frontend-development-experience.md`、`wiki/vue3-frontend-development-guide.md`
+
+## 2026-05-29：前端列表展示约定同时维护在通用页与 Vue 3 页
+**决策**：将“列表标题与列表内容居中展示”写入 `wiki/frontend-development-experience.md` 的通用样式体验约定，并同步补充到 `wiki/vue3-frontend-development-guide.md` 的 Vue 3 实施与验证要求
+**原因**：该要求属于通用前端视觉规则，同时当前已存在 Vue 3 专项规范，双处记录可让非框架限定查询和 Vue 3 实施查询都能命中
+**否决方案**：仅写入通用前端经验页（原因：Vue 3 专项实施时可能遗漏）；仅写入 Vue 3 专项页（原因：会把通用展示规则错误限定到单一框架）
+**影响范围**：`wiki/frontend-development-experience.md`、`wiki/vue3-frontend-development-guide.md`
+
 ## 2026-05-26：项目初始化
 **决策**：使用 PROGRESS / DECISIONS / CHANGELOG 三文件管理项目状态
 **原因**：跨会话保持上下文，避免每次向 Claude 重新解释项目背景
