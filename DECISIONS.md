@@ -13,6 +13,18 @@
 
 ---
 
+## 2026-06-02：AGENTS 只保留 Wiki 入口不重复维护主题导航
+**决策**：将 `AGENTS.md` 的“当前导航”改为“当前入口”，只保留 `wiki/index.md` 与 `wiki/log.md`，具体主题导航统一维护在 `wiki/index.md`
+**原因**：重复维护 `AGENTS.md` 和 `wiki/index.md` 两份主题导航容易遗漏同步；`AGENTS.md` 的职责是说明维护规则和入口，主题页面清单应由 Wiki 主索引承担
+**否决方案**：继续在 `AGENTS.md` 逐项列出所有主题页面（原因：新增页面时需要双处更新，已出现遗漏）；完全删除入口说明（原因：代理开始维护时仍需要明确入口文件）
+**影响范围**：`AGENTS.md`、后续 Wiki 页面新增流程
+
+## 2026-06-02：Codex CLI 命令参考独立成页
+**决策**：新增 `wiki/codex-cli-command-reference.md` 独立维护 Codex CLI 命令说明
+**原因**：Codex CLI 命令数量较多，包含参数、子命令和典型用法，放入日常知识页会导致页面过长且不利于后续更新；独立页面更便于索引、引用和版本核对
+**否决方案**：追加到 `wiki/daily-knowledge-notes.md`（原因：内容体量较大，后续更新会污染日常知识入口）；只保留聊天回答（原因：不方便本地查看和后续维护）
+**影响范围**：`wiki/codex-cli-command-reference.md`、`wiki/index.md`、`wiki/log.md`
+
 ## 2026-06-02：来源联动规则先沉淀到日常知识
 **决策**：将文章、书籍和原始文件的来源索引与联动更新规则记录到 `wiki/daily-knowledge-notes.md`，暂不新建独立来源索引页面
 **原因**：当前长期归档来源数量较少，现有 `raw/`、页面 frontmatter `sources` 和 `wiki/log.md` 已能支撑追溯；先沉淀规则可避免过早增加维护页面，等来源数量增长后再拆分为 `wiki/source-index.md`

@@ -17,6 +17,7 @@ updated: 2026-06-02
 | [Vue 3 前端开发规范](vue3-frontend-development-guide.md) | Vue 3 + TypeScript、FastAPI 协作与接口地址配置约定 | 生效中 | 2026-05-29 |
 | [跨页面功能一致性约定](cross-page-feature-consistency.md) | 前后端共享功能的一致实现与特殊差异说明规则 | 生效中 | 2026-05-26 |
 | [日常知识积累](daily-knowledge-notes.md) | 通用知识、工具技巧、排查结论和可复用提醒 | 生效中 | 2026-06-02 |
+| [Codex CLI 命令参考](codex-cli-command-reference.md) | Codex CLI 顶层命令、常用参数和典型用法 | 生效中 | 2026-06-02 |
 
 ## 操作记录
 

@@ -53,15 +53,11 @@
 2. 对可确定的问题直接修复；涉及用户决定的冲突或缺口，列为待确认事项。
 3. 在 `wiki/log.md` 追加 `## [YYYY-MM-DD] lint | 标题` 记录。
 
-## 当前导航
+## 当前入口
 
 - `wiki/index.md`：Wiki 总索引，所有查询与整理工作的入口。
 - `wiki/log.md`：按时间追加的维护历史。
-- `wiki/python-backend-development-guide.md`：Python 后端技术环境、接口框架、数据访问、服务启动、依赖管理、并发目标及 Git 提交约定。
-- `wiki/frontend-development-experience.md`：前端技术选型、实现约定、接口联调及质量交付经验入口。
-- `wiki/vue3-frontend-development-guide.md`：Vue 3 前端组件、状态、接口联调和质量检查专项规范。
-- `wiki/cross-page-feature-consistency.md`：前后端多页面复用同一功能时的一致性规则与例外告知要求。
-- `wiki/daily-knowledge-notes.md`：尚未归入专项规范的日常知识、工具技巧与排查结论积累入口。
+- 具体主题导航只维护在 `wiki/index.md`，不要在本文件重复列出，避免双重导航不同步。
 
 ## Git 提交与推送
 

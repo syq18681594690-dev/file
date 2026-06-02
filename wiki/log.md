@@ -8,6 +8,16 @@ updated: 2026-06-02
 
 本文件按时间追加记录 `ingest`、`query` 和 `lint` 操作。
 
+## [2026-06-02] ingest | Codex CLI slash commands
+
+- 来源：OpenAI Codex Manual（2026-06-02 获取）。
+- 结果：更新 [Codex CLI 命令参考](codex-cli-command-reference.md)，补充交互式 CLI 中 `/` 调出的内置 slash commands、适用场景和注意事项。
+
+## [2026-06-02] ingest | Codex CLI 命令参考
+
+- 来源：OpenAI Codex Manual（2026-06-02 获取）与本地 `codex --help` 输出。
+- 结果：新增 [Codex CLI 命令参考](codex-cli-command-reference.md)，记录 Codex CLI 顶层命令、常用全局参数和典型使用场景，并更新 [开发规范 Wiki 索引](index.md)。
+
 ## [2026-06-02] query | 来源索引与联动更新规则
 
 - 来源：用户对话输入。
