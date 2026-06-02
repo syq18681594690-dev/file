@@ -14,6 +14,7 @@
 - docs(skill): 增加 `wiki-knowledge-base` skill 草稿及通用 Wiki 模板
 
 ### 修复
+- docs(readme): 将 README 标题和正文改为中文
 - docs(progress): 更新开源检查、打包、README 和本次维护状态
 
 ## 2026-05-27
