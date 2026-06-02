@@ -7,6 +7,7 @@
 ## 2026-06-02
 
 ### 新增
+- docs(agents): 增加 Wiki 大主题拆分与分层导航维护规则
 - docs(codex): 增加 Codex CLI 命令与 slash commands 中文参考
 - docs(readme): 增加开源入口说明、目录用途、维护流程和分发注意事项
 - docs(wiki): 增加来源索引与联动更新规则
