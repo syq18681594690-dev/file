@@ -1,7 +1,7 @@
 ---
 title: 开发规范 Wiki 索引
 type: index
-updated: 2026-05-29
+updated: 2026-06-02
 ---
 
 # 开发规范 Wiki
@@ -16,7 +16,7 @@ updated: 2026-05-29
 | [前端开发经验](frontend-development-experience.md) | 前端技术选型、实现经验、接口联调与质量交付记录入口 | 草稿 | 2026-05-29 |
 | [Vue 3 前端开发规范](vue3-frontend-development-guide.md) | Vue 3 + TypeScript、FastAPI 协作与接口地址配置约定 | 生效中 | 2026-05-29 |
 | [跨页面功能一致性约定](cross-page-feature-consistency.md) | 前后端共享功能的一致实现与特殊差异说明规则 | 生效中 | 2026-05-26 |
-| [日常知识积累](daily-knowledge-notes.md) | 通用知识、工具技巧、排查结论和可复用提醒 | 生效中 | 2026-05-29 |
+| [日常知识积累](daily-knowledge-notes.md) | 通用知识、工具技巧、排查结论和可复用提醒 | 生效中 | 2026-06-02 |
 
 ## 操作记录
 
@@ -29,3 +29,4 @@ updated: 2026-05-29
 - 接口测试、压测及验收指标。
 - Vue 3 构建方式、配套库与交付规范。
 - 可拆分为独立主题的日常知识条目。
+- 来源数量增长后的独立来源索引页。

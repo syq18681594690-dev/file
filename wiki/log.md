@@ -1,12 +1,17 @@
 ---
 title: Wiki 维护日志
 type: log
-updated: 2026-05-29
+updated: 2026-06-02
 ---
 
 # Wiki 维护日志
 
 本文件按时间追加记录 `ingest`、`query` 和 `lint` 操作。
+
+## [2026-06-02] query | 来源索引与联动更新规则
+
+- 来源：用户对话输入。
+- 结果：回答根据文章或书籍更新 Wiki 时的来源记录和反向联动方式，并将双向来源索引规则沉淀到 [日常知识积累](daily-knowledge-notes.md)。
 
 ## [2026-05-29] query | 自定义 Wiki 知识库 skill 可行性
 

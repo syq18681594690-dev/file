@@ -13,6 +13,12 @@
 
 ---
 
+## 2026-06-02：来源联动规则先沉淀到日常知识
+**决策**：将文章、书籍和原始文件的来源索引与联动更新规则记录到 `wiki/daily-knowledge-notes.md`，暂不新建独立来源索引页面
+**原因**：当前长期归档来源数量较少，现有 `raw/`、页面 frontmatter `sources` 和 `wiki/log.md` 已能支撑追溯；先沉淀规则可避免过早增加维护页面，等来源数量增长后再拆分为 `wiki/source-index.md`
+**否决方案**：立即新建 `wiki/source-index.md`（原因：当前来源规模不足，容易产生空壳页面和额外同步成本）；仅依赖聊天记录记忆（原因：无法稳定反查原始文件影响范围）
+**影响范围**：`wiki/daily-knowledge-notes.md`、`wiki/index.md`、`wiki/log.md`
+
 ## 2026-05-29：示例 Wiki skill 放在当前目录的 skills 子目录
 **决策**：在当前仓库创建 `skills/wiki-knowledge-base/` 作为可查看的 skill 草稿，并将通用模板放入 `assets/templates/`
 **原因**：用户要求“在当前目录给我看一下”，放在 `skills/` 下可直接查看结构，同时不影响已安装的 Codex skills
